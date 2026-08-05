@@ -240,6 +240,7 @@ h1 em {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 70% center;
 }
 
 .hero-visual figcaption {
@@ -663,6 +664,10 @@ footer nav {
 
   .hero-visual {
     min-height: 29rem;
+  }
+
+  .hero-visual img {
+    object-position: 78% center;
   }
 
   .hero-visual figcaption {
