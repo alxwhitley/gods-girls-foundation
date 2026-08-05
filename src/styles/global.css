@@ -130,6 +130,10 @@ footer nav a {
   border-color: var(--gold);
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .header-donate,
 .primary-action {
   display: inline-flex;
@@ -717,11 +721,70 @@ footer nav {
     position: absolute;
     top: 0.75rem;
     right: 1.25rem;
+    flex-direction: row-reverse;
     gap: 0.5rem;
   }
 
-  .site-header nav a:not(.header-donate) {
+  .desktop-nav-link {
     display: none;
+  }
+
+  .mobile-nav {
+    position: relative;
+    display: block;
+  }
+
+  .nav-toggle {
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid rgb(251 209 62 / 52%);
+    color: var(--text-on-dark);
+    cursor: pointer;
+    list-style: none;
+    place-items: center;
+  }
+
+  .nav-toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .nav-toggle svg {
+    width: 1.25rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-width: 1.5;
+  }
+
+  .close-icon,
+  .mobile-nav[open] .menu-icon {
+    display: none;
+  }
+
+  .mobile-nav[open] .close-icon {
+    display: block;
+  }
+
+  .mobile-nav-panel {
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    right: 0;
+    display: grid;
+    width: min(15rem, calc(100vw - 2.5rem));
+    border-block: 1px solid rgb(251 209 62 / 52%);
+    background: var(--ink);
+  }
+
+  .mobile-nav-panel a {
+    min-height: 3rem;
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid rgb(197 221 224 / 18%);
+    color: var(--text-on-dark);
+  }
+
+  .mobile-nav-panel a:last-child {
+    border-bottom: 0;
   }
 
   .header-donate {
