@@ -1,0 +1,56 @@
+---
+import "@fontsource/bodoni-moda/400.css";
+import "@fontsource/bodoni-moda/500.css";
+import "@fontsource/source-sans-3/400.css";
+import "@fontsource/source-sans-3/600.css";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#102e37" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="God's Girls Foundation home">
+        <img class="brand-logo" src="/assets/logo.png" alt="God's Girls Foundation" width="1493" height="1019" />
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="/" aria-current={currentPath === "/" ? "page" : undefined}>Home</a>
+        <a href="/outreach" aria-current={currentPath === "/outreach" ? "page" : undefined}>Outreach</a>
+        <a href="/#story">About</a>
+        <a class="header-donate" href="/#donate">Donate</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <footer>
+      <a class="footer-brand" href="/">God's Girls Foundation</a>
+      <p>Daring, Deserving and Dignified.</p>
+      <nav aria-label="Footer navigation">
+        <a href="/outreach">Outreach</a>
+        <a href="/#story">Our story</a>
+        <a href="/#donate">Donate</a>
+      </nav>
+      <p class="prototype-note">Prototype website — final content, imagery, and donation link are pending.</p>
+    </footer>
+  </body>
+</html>
