@@ -302,6 +302,7 @@ h1 em {
 
 .story h2,
 .fit h2,
+.operating-model h2,
 .donate h2 {
   margin-bottom: 1.5rem;
   font-size: clamp(2.75rem, 5vw, 5rem);
@@ -312,6 +313,7 @@ h1 em {
 
 .story-intro > div > p,
 .fit-heading > p,
+.operating-intro > p,
 .donate > div > p {
   max-width: 65ch;
   font-size: 1.12rem;
@@ -449,6 +451,55 @@ blockquote p {
   fill: none;
   stroke: var(--teal-dark);
   stroke-width: 1.8;
+}
+
+.operating-model {
+  display: grid;
+  grid-template-columns: minmax(0, 42rem) minmax(22rem, 32rem);
+  justify-content: center;
+  gap: clamp(4rem, 10vw, 10rem);
+  padding: clamp(5rem, 10vw, 9rem) var(--page-pad);
+  border-top: 1px solid rgb(198 154 23 / 38%);
+  background: var(--linen);
+}
+
+.operating-intro {
+  max-width: 42rem;
+}
+
+.operating-status {
+  align-self: center;
+  border-block: 1px solid var(--gold-deep);
+}
+
+.operating-status > p {
+  margin: 0;
+  padding: 1rem 0;
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
+.operating-status dl {
+  margin: 0;
+}
+
+.operating-status dl > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid rgb(16 46 55 / 18%);
+}
+
+.operating-status dt {
+  font-family: var(--display-font);
+  font-size: 1.12rem;
+}
+
+.operating-status dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
 }
 
 .donate {
@@ -680,6 +731,7 @@ footer nav {
 
   .story-intro,
   .fit,
+  .operating-model,
   .donate {
     grid-template-columns: 1fr;
   }
@@ -689,6 +741,10 @@ footer nav {
   }
 
   .donate {
+    gap: 2.5rem;
+  }
+
+  .operating-model {
     gap: 2.5rem;
   }
 
@@ -831,6 +887,15 @@ footer nav {
 
   .donate {
     gap: 2rem;
+  }
+
+  .operating-model {
+    gap: 2rem;
+  }
+
+  .operating-status dl > div {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
   }
 
   .story-path {
