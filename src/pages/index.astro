@@ -1,0 +1,213 @@
+---
+import "@fontsource/bodoni-moda/400.css";
+import "@fontsource/bodoni-moda/500.css";
+import "@fontsource/source-sans-3/400.css";
+import "@fontsource/source-sans-3/600.css";
+import "../styles/global.css";
+
+const supplies = [
+  {
+    title: "External breast prostheses",
+    description: "A proper alternative to uncomfortable, improvised substitutes.",
+    icon: "prosthesis",
+  },
+  {
+    title: "Mastectomy bras",
+    description: "Supportive garments designed for comfort, fit, and confidence.",
+    icon: "bra",
+  },
+  {
+    title: "Related garments",
+    description: "Practical clothing that helps survivors move through daily life with dignity.",
+    icon: "garment",
+  },
+];
+
+const fitDetails = [
+  "Soft seams and no underwire",
+  "A wide underband that sits flat",
+  "Deep front and side panels",
+  "Full cups with wide, adjustable straps",
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="God's Girls Foundation inspires mastectomy survivors to walk with confidence and dignity by expanding access to essential post-mastectomy supplies in Kenya."
+    />
+    <meta name="theme-color" content="#102e37" />
+    <title>God's Girls Foundation</title>
+  </head>
+  <body>
+    <!--
+    THESIS: A survivor's testimony opens like sanctuary light; refuse the generic pink-ribbon nonprofit hero.
+    OWN-WORLD: Midnight teal, woven gold light, linen, fine keylines, and square devotional controls.
+    STORY: Faith carried one survivor through a specific supply gap; the visitor understands, believes, and donates.
+    FIRST VIEWPORT: Split sanctuary field, monumental vision left, anonymous figure in gold light right, Donate in both header and hero.
+    FORM: Luminous Threshold, selected from three comps; seed 3cb953d7.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+    -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="God's Girls Foundation home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M24 3v42M11 16h26M17 10v28M31 10v28" />
+          <path d="M7 24h34M12 31h24" />
+        </svg>
+        <span>God's Girls Foundation</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a aria-current="page" href="#top">Home</a>
+        <a href="#story">About</a>
+        <a class="header-donate" href="#donate">Donate</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <svg class="sun-cross" viewBox="0 0 84 84" aria-hidden="true">
+            <path d="M42 4v76M19 26h46" />
+            <path d="M42 1v7M42 76v7M1 42h7M76 42h7M13 13l5 5M66 66l5 5M71 13l-5 5M18 66l-5 5" />
+          </svg>
+          <h1 id="hero-title">Daring, Deserving <em>and</em> Dignified.</h1>
+          <p class="hero-mission">
+            Inspiring mastectomy survivors to walk with confidence and dignity.
+          </p>
+          <a class="primary-action" href="#donate">
+            Donate
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5" /></svg>
+          </a>
+        </div>
+
+        <figure class="hero-visual">
+          <img
+            src="/images/hero-sanctuary.webp"
+            alt="Illustrative placeholder of a woman standing in warm sanctuary light"
+            width="1600"
+            height="1000"
+            fetchpriority="high"
+          />
+          <figcaption>Prototype imagery — replace with approved foundation photography.</figcaption>
+        </figure>
+      </section>
+
+      <section class="supply-band" aria-labelledby="supply-title">
+        <h2 id="supply-title" class="visually-hidden">The supplies your support makes accessible</h2>
+        {supplies.map((supply) => (
+          <article class="supply-item">
+            {supply.icon === "prosthesis" && (
+              <svg viewBox="0 0 100 78" aria-hidden="true">
+                <path d="M15 63C18 31 40 10 67 11c13 1 21 12 18 25-5 21-33 34-70 27Z" />
+                <path d="M29 55c15-4 29-15 38-31" />
+              </svg>
+            )}
+            {supply.icon === "bra" && (
+              <svg viewBox="0 0 100 78" aria-hidden="true">
+                <path d="M12 18c5 0 8 8 9 26 1 13 10 21 26 22M88 18c-5 0-8 8-9 26-1 13-10 21-26 22" />
+                <path d="M20 38c11-8 23-6 30 8 7-14 19-16 30-8M13 64h74M46 66h8" />
+              </svg>
+            )}
+            {supply.icon === "garment" && (
+              <svg viewBox="0 0 100 78" aria-hidden="true">
+                <path d="m34 13-23 17 13 15 10-8v31h32V37l10 8 13-15-23-17c-4 7-10 10-16 10s-12-3-16-10Z" />
+              </svg>
+            )}
+            <div>
+              <h3>{supply.title}</h3>
+              <p>{supply.description}</p>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <section class="story" id="story" aria-labelledby="story-title">
+        <div class="story-intro">
+          <div>
+            <h2 id="story-title">A survivor's testimony became a mission.</h2>
+            <p>
+              After a 2018 diagnosis and single mastectomy, the foundation's founder lived for years with an ill-fitting knitted prosthesis. It shrank over time, leaving her uncomfortable and visibly uneven—with nowhere local to find a suitable replacement.
+            </p>
+          </div>
+          <blockquote>
+            <p>Faith turned a deeply personal need into a call to help other women walk with confidence.</p>
+          </blockquote>
+        </div>
+
+        <ol class="story-path" aria-label="Foundation origin timeline">
+          <li>
+            <time datetime="2018">2018</time>
+            <div>
+              <h3>A need lived firsthand</h3>
+              <p>A mastectomy began a difficult search for comfortable, properly fitting supplies in Kenya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="path-mark" aria-hidden="true"></span>
+            <div>
+              <h3>Knowledge shared in community</h3>
+              <p>A fellow survivor taught her what proper fit should feel like—and showed what access could restore.</p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2023">2023</time>
+            <div>
+              <h3>A faithful response</h3>
+              <p>A visit to a mastectomy-supply store in Raleigh sparked the idea for God's Girls Foundation.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="fit" aria-labelledby="fit-title">
+        <div class="fit-heading">
+          <svg viewBox="0 0 84 84" aria-hidden="true">
+            <path d="M42 5v74M19 27h46" />
+            <path d="M15 62c8 1 17 7 27 17 10-10 19-16 27-17" />
+          </svg>
+          <h2 id="fit-title">The need is specific. So is the response.</h2>
+          <p>
+            Proper post-mastectomy garments are not a cosmetic extra. Thoughtful fit supports comfort, movement, confidence, and dignity.
+          </p>
+        </div>
+        <ul class="fit-list">
+          {fitDetails.map((detail) => (
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+              <span>{detail}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="donate" id="donate" aria-labelledby="donate-title">
+        <div>
+          <h2 id="donate-title">Help dignity reach another woman.</h2>
+          <p>
+            Your support will help expand access to proper mastectomy supplies for underserved survivors in Kenya.
+          </p>
+        </div>
+        <div class="donate-status" role="status">
+          <span>Donation link coming soon</span>
+          <p>This prototype will connect to the foundation's selected donation platform.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="footer-brand" href="#top">God's Girls Foundation</a>
+      <p>Daring, Deserving and Dignified.</p>
+      <nav aria-label="Footer navigation">
+        <a href="#story">Our story</a>
+        <a href="#donate">Donate</a>
+      </nav>
+      <p class="prototype-note">Prototype website — final content, imagery, and donation link are pending.</p>
+    </footer>
+  </body>
+</html>

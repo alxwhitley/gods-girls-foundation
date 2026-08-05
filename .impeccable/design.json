@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T00:00:00-04:00",
+  "title": "Design System: God's Girls Foundation",
+  "extensions": {
+    "colorMeta": {
+      "sanctuary-ink": { "role": "neutral", "displayName": "Sanctuary Ink", "canonical": "#102e37", "tonalRamp": ["oklch(15% 0.035 216)", "oklch(25% 0.035 216)", "oklch(35% 0.035 216)", "oklch(47% 0.035 216)", "oklch(59% 0.035 216)", "oklch(71% 0.035 216)", "oklch(83% 0.035 216)", "oklch(95% 0.035 216)"] },
+      "sanctuary-ink-soft": { "role": "neutral", "displayName": "Sanctuary Ink Soft", "canonical": "#174550", "tonalRamp": ["oklch(15% 0.045 211)", "oklch(25% 0.045 211)", "oklch(35% 0.045 211)", "oklch(47% 0.045 211)", "oklch(59% 0.045 211)", "oklch(71% 0.045 211)", "oklch(83% 0.045 211)", "oklch(95% 0.045 211)"] },
+      "foundation-teal": { "role": "primary", "displayName": "Foundation Teal", "canonical": "#1d99a6", "tonalRamp": ["oklch(15% 0.09 205)", "oklch(25% 0.09 205)", "oklch(35% 0.09 205)", "oklch(47% 0.09 205)", "oklch(59% 0.09 205)", "oklch(71% 0.09 205)", "oklch(83% 0.09 205)", "oklch(95% 0.09 205)"] },
+      "deep-teal": { "role": "primary", "displayName": "Deep Teal", "canonical": "#0d5f69", "tonalRamp": ["oklch(15% 0.07 205)", "oklch(25% 0.07 205)", "oklch(35% 0.07 205)", "oklch(47% 0.07 205)", "oklch(59% 0.07 205)", "oklch(71% 0.07 205)", "oklch(83% 0.07 205)", "oklch(95% 0.07 205)"] },
+      "woven-gold": { "role": "secondary", "displayName": "Woven Gold", "canonical": "#fbd13e", "tonalRamp": ["oklch(15% 0.15 88)", "oklch(25% 0.15 88)", "oklch(35% 0.15 88)", "oklch(47% 0.15 88)", "oklch(59% 0.15 88)", "oklch(71% 0.15 88)", "oklch(83% 0.15 88)", "oklch(95% 0.15 88)"] },
+      "burnished-gold": { "role": "secondary", "displayName": "Burnished Gold", "canonical": "#c69a17", "tonalRamp": ["oklch(15% 0.12 82)", "oklch(25% 0.12 82)", "oklch(35% 0.12 82)", "oklch(47% 0.12 82)", "oklch(59% 0.12 82)", "oklch(71% 0.12 82)", "oklch(83% 0.12 82)", "oklch(95% 0.12 82)"] },
+      "warm-linen": { "role": "neutral", "displayName": "Warm Linen", "canonical": "#f7f1e7", "tonalRamp": ["oklch(15% 0.015 80)", "oklch(25% 0.015 80)", "oklch(35% 0.015 80)", "oklch(47% 0.015 80)", "oklch(59% 0.015 80)", "oklch(71% 0.015 80)", "oklch(83% 0.015 80)", "oklch(95% 0.015 80)"] },
+      "luminous-paper": { "role": "neutral", "displayName": "Luminous Paper", "canonical": "#fffaf1", "tonalRamp": ["oklch(15% 0.012 80)", "oklch(25% 0.012 80)", "oklch(35% 0.012 80)", "oklch(47% 0.012 80)", "oklch(59% 0.012 80)", "oklch(71% 0.012 80)", "oklch(83% 0.012 80)", "oklch(95% 0.012 80)"] },
+      "warm-white": { "role": "neutral", "displayName": "Warm White", "canonical": "#fff9ed", "tonalRamp": ["oklch(15% 0.014 80)", "oklch(25% 0.014 80)", "oklch(35% 0.014 80)", "oklch(47% 0.014 80)", "oklch(59% 0.014 80)", "oklch(71% 0.014 80)", "oklch(83% 0.014 80)", "oklch(95% 0.014 80)"] },
+      "misted-teal": { "role": "neutral", "displayName": "Misted Teal", "canonical": "#c5dde0", "tonalRamp": ["oklch(15% 0.025 205)", "oklch(25% 0.025 205)", "oklch(35% 0.025 205)", "oklch(47% 0.025 205)", "oklch(59% 0.025 205)", "oklch(71% 0.025 205)", "oklch(83% 0.025 205)", "oklch(95% 0.025 205)"] },
+      "footer-ink": { "role": "neutral", "displayName": "Footer Ink", "canonical": "#0a242b", "tonalRamp": ["oklch(15% 0.03 211)", "oklch(25% 0.03 211)", "oklch(35% 0.03 211)", "oklch(47% 0.03 211)", "oklch(59% 0.03 211)", "oklch(71% 0.03 211)", "oklch(83% 0.03 211)", "oklch(95% 0.03 211)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Monumental Vision", "purpose": "Hero vision statements only." },
+      "headline": { "displayName": "Section Testimony", "purpose": "Section openings and the donation appeal." },
+      "title": { "displayName": "Evidence Title", "purpose": "Supply names and timeline milestones." },
+      "body": { "displayName": "Humanist Body", "purpose": "Narrative, mission, and explanatory copy." },
+      "label": { "displayName": "Action Label", "purpose": "Navigation, controls, and concise status copy." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "action-response", "value": "180ms ease-out", "purpose": "Primary action color and 0.125rem lift on hover." },
+      { "name": "sanctuary-open", "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One-time hero image reveal from a 12% left inset and slightly reduced brightness." }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "62rem" },
+      { "name": "mobile", "value": "44rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Donate Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The luminous primary action used in the hero and header.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Donate <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M14 7l5 5-5 5\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;min-height:3rem;align-items:center;justify-content:center;gap:1.5rem;padding:.7rem 1.5rem;background:var(--gold,#fbd13e);color:var(--ink,#102e37);font:600 1rem/1.4 'Source Sans 3',sans-serif;text-decoration:none;transition:background-color 180ms ease-out,transform 180ms ease-out}.ds-btn-primary svg{width:1.25rem;fill:none;stroke:currentColor;stroke-width:1.5}.ds-btn-primary:hover{background:#ffe170;transform:translateY(-.125rem)}.ds-btn-primary:focus-visible{outline:.2rem solid var(--gold,#fbd13e);outline-offset:.2rem}"
+    },
+    {
+      "name": "Primary Navigation Link",
+      "kind": "nav",
+      "description": "A restrained semibold link with a gold current and hover keyline.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Home</a>",
+      "css": ".ds-nav-link{display:inline-flex;min-height:2.75rem;align-items:center;border-bottom:1px solid transparent;color:var(--text-on-dark,#fff9ed);font:600 1rem/1.4 'Source Sans 3',sans-serif;text-decoration:none}.ds-nav-link:hover,.ds-nav-link[aria-current='page']{border-color:var(--gold,#fbd13e)}.ds-nav-link:focus-visible{outline:.2rem solid var(--gold,#fbd13e);outline-offset:.2rem}"
+    },
+    {
+      "name": "Supply Index Item",
+      "kind": "card",
+      "description": "A flat dark evidence row pairing gold line art with specific supply copy.",
+      "html": "<article class=\"ds-supply\"><svg viewBox=\"0 0 100 78\" aria-hidden=\"true\"><path d=\"M15 63C18 31 40 10 67 11c13 1 21 12 18 25-5 21-33 34-70 27Z\"/><path d=\"M29 55c15-4 29-15 38-31\"/></svg><div><h3>External breast prostheses</h3><p>A proper alternative to uncomfortable, improvised substitutes.</p></div></article>",
+      "css": ".ds-supply{display:grid;grid-template-columns:6rem minmax(0,1fr);align-items:center;gap:1.25rem;padding:1.5rem;background:var(--ink-soft,#174550);color:var(--text-on-dark,#fff9ed);border:1px solid color-mix(in srgb,var(--gold,#fbd13e) 52%,transparent)}.ds-supply svg{width:100%;fill:none;stroke:var(--gold,#fbd13e);stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}.ds-supply h3{margin:0 0 .25rem;font:500 1.35rem/1.1 'Bodoni Moda',serif}.ds-supply p{margin:0;color:var(--text-muted-dark,#c5dde0);font:400 .9rem/1.4 'Source Sans 3',sans-serif}"
+    },
+    {
+      "name": "Timeline Date Marker",
+      "kind": "custom",
+      "refersTo": "timeline-date",
+      "description": "A square teal-outlined date that anchors verified origin chronology.",
+      "html": "<time class=\"ds-timeline-date\" datetime=\"2018\">2018</time>",
+      "css": ".ds-timeline-date{display:flex;width:4.8rem;height:4.8rem;align-items:center;justify-content:center;border:1px solid var(--teal,#1d99a6);background:var(--linen,#f7f1e7);color:var(--teal-dark,#0d5f69);font:400 1.55rem/1 'Bodoni Moda',serif}"
+    },
+    {
+      "name": "Fit Checklist Row",
+      "kind": "custom",
+      "description": "A calm editorial checklist row for practical post-mastectomy fit guidance.",
+      "html": "<div class=\"ds-fit-row\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg><span>Soft seams and no underwire</span></div>",
+      "css": ".ds-fit-row{display:flex;align-items:center;gap:1rem;padding:1.25rem 0;border-block:1px solid rgb(16 46 55 / 22%);color:var(--ink,#102e37);font:400 1.3rem/1.4 'Bodoni Moda',serif}.ds-fit-row svg{width:1.5rem;flex:0 0 auto;fill:none;stroke:var(--teal-dark,#0d5f69);stroke-width:1.8}"
+    },
+    {
+      "name": "Donation Status Field",
+      "kind": "custom",
+      "description": "A transparent, keylined status passage used when an action is intentionally unavailable.",
+      "html": "<div class=\"ds-donate-status\" role=\"status\"><span>Donation link coming soon</span><p>This prototype will connect to the foundation's selected donation platform.</p></div>",
+      "css": ".ds-donate-status{padding:1.5rem 0;border-block:1px solid color-mix(in srgb,var(--gold,#fbd13e) 52%,transparent);background:var(--ink,#102e37)}.ds-donate-status span{display:block;margin-bottom:.5rem;color:var(--gold,#fbd13e);font:400 1.6rem/1.25 'Bodoni Moda',serif}.ds-donate-status p{margin:0;color:var(--text-muted-dark,#c5dde0);font:400 1rem/1.6 'Source Sans 3',sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Luminous Sanctuary of Testimony",
+    "overview": "This system makes a survivor's testimony feel like entering a quiet sanctuary: midnight teal establishes gravity, woven gold introduces hope and action, and warm linen gives the story room to breathe. The mood is devotional but not institutional, editorial but not luxurious for its own sake, and emotionally direct without relying on generic breast-cancer visual shorthand.\n\nThe visual hierarchy moves from monumental conviction to calm, specific evidence. Bodoni Moda carries vision, testimony, and dates; Source Sans 3 keeps the practical mission legible and human. Fine keylines, spare line drawings, square controls, and light moving across deep color create distinction without decorative excess.",
+    "keyCharacteristics": [
+      "Midnight-teal sanctuary fields opening into warm linen and luminous paper.",
+      "Gold used selectively for light, dates, focus, fine keylines, and the primary action.",
+      "Monumental editorial display type paired with a calm humanist sans serif.",
+      "Square, flat, precisely outlined forms rather than soft cards or floating surfaces.",
+      "Survivor testimony and supply-specific evidence remain the emotional and factual center."
+    ],
+    "rules": [
+      { "name": "The Woven Light Rule", "body": "Gold is rare and meaningful: use it for light, dates, keylines, focus, and primary action—not as a broad decorative fill.", "section": "colors" },
+      { "name": "The No Pink-Ribbon Rule", "body": "Do not substitute generic breast-cancer pinks or awareness motifs for the foundation's own teal-and-gold identity.", "section": "colors" },
+      { "name": "The Monument and Witness Rule", "body": "Let display type carry one decisive idea at a time; supporting truth belongs in restrained sans-serif copy, never in competing oversized statements.", "section": "typography" },
+      { "name": "The Processional Rhythm Rule", "body": "Each section should advance from conviction to specific proof to action; do not fill the page with interchangeable card grids.", "section": "layout" },
+      { "name": "The Flat Sanctuary Rule", "body": "Surfaces do not float. Separate them with color, light, fine rules, and spatial rhythm rather than shadows.", "section": "elevation" },
+      { "name": "The Devotional Geometry Rule", "body": "Keep controls and containers square, then introduce humanity through typography, illustration, and light—not rounded cards or pill shapes.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do reserve woven gold for light, dates, focus, keylines, and primary action.",
+      "Do pair monumental Bodoni statements with calm, specific Source Sans 3 evidence.",
+      "Do build hierarchy with full-width tonal fields, generous space, and fine rules.",
+      "Do keep survivor testimony and real supply details more prominent than generic nonprofit claims.",
+      "Do preserve semantic controls, visible focus, reduced-motion behavior, and mobile reading order."
+    ],
+    "donts": [
+      "Don't introduce pink-ribbon imagery, generic charity photography, or a conventional nonprofit template aesthetic.",
+      "Don't add rounded cards, pill buttons, gradients, or drop shadows to create interest.",
+      "Don't spread gold across large decorative areas; its rarity creates its meaning.",
+      "Don't crowd the page with multiple oversized messages or dense grids of equal-weight content.",
+      "Don't let prototype imagery or unconfirmed donation, impact, partner, or legal claims read as final truth."
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "approved": true,
+  "direction": "Sanctuary of Testimony",
+  "concept": "Luminous Threshold",
+  "promptSummary": "Split sanctuary hero, donor-first hierarchy, specific supply strip, founder testimony below the fold.",
+  "doNotLiteralize": [
+    "Generated quotation",
+    "Any claim that survivors have already been equipped",
+    "Generated person as documentary evidence"
+  ]
+}

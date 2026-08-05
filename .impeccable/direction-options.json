@@ -1,0 +1,76 @@
+{
+  "title": "Choose the visual world",
+  "question": "Which world should shape the Home, About, and Donate prototype?",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Sanctuary of Testimony",
+      "kicker": "RECOMMENDED DIRECTION",
+      "lineage": "Kenyan Christian testimony, translucent cloth, and sanctuary light",
+      "thesis": "A survivor's testimony moves through light from private discomfort to public dignity.",
+      "palette": ["#102E37", "#1D99A6", "#FBD13E", "#F7F1E7"],
+      "materials": ["translucent woven cloth", "colored daylight", "deep painted timber"],
+      "viewport": "A near-full-screen teal sanctuary field is crossed by gold textile light; the real vision line, the specific Kenya supply gap, and Donate are immediately visible.",
+      "risk": "It could resemble a church campaign if the mastectomy-supply purpose is not stated in the opening breath.",
+      "sketch": ".impeccable/sketches/assigned.webp"
+    },
+    {
+      "id": "challenger-daylight",
+      "label": "Architecture of Grace",
+      "kicker": "STRONG ALTERNATE",
+      "lineage": "architectural daylight sections and annotated paths of light",
+      "thesis": "The site becomes a section through a life, tracing where grace enters and dignity returns.",
+      "case": "Strong product clarity, but the architectural notation identifies less naturally with donors and survivors than testimony does.",
+      "palette": ["#F3F0E6", "#202D32", "#1D99A6", "#FBD13E"],
+      "materials": ["limewash", "charcoal section cuts", "measured sunlight"],
+      "viewport": "A continuous cutaway composition traces a gold beam from the founder's 2018 diagnosis to the present mission, with Donate fixed at the beam's destination.",
+      "risk": "Diagram language can intellectualize a story that should first feel personal.",
+      "sketch": ".impeccable/sketches/challenger-daylight.webp",
+      "hero": "https://impeccable.style/worlds/cards/architecture-inhabitable-space-daylight-section-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/architecture-inhabitable-space-daylight-section.webp"
+    },
+    {
+      "id": "challenger-riso",
+      "label": "Printed Witness",
+      "kicker": "ENERGETIC ALTERNATE",
+      "lineage": "community risograph pamphlets and layered spot-ink testimony",
+      "thesis": "Faith, need, and action overlap like three inks, making each gift visibly part of the whole.",
+      "case": "Memorable and clear, but faith reads as one layer rather than the identity's leading force.",
+      "palette": ["#F4EAD8", "#1D99A6", "#FBD13E", "#432E54"],
+      "materials": ["toothy paper", "misregistered spot ink", "coarse halftone"],
+      "viewport": "A bold testimony broadsheet layers the vision statement, a simple prosthesis-access illustration, and a cut-paper Donate action without any pink-ribbon cues.",
+      "risk": "Print exuberance could make a serious survivor story feel campaign-like.",
+      "sketch": ".impeccable/sketches/challenger-riso.webp",
+      "hero": "https://impeccable.style/worlds/cards/risograph-web-system-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/risograph-web-system.webp"
+    },
+    {
+      "id": "challenger-steps",
+      "label": "A Dignity Made Whole",
+      "kicker": "PROVOCATIVE ALTERNATE",
+      "lineage": "wordless assembly books and numbered fit instructions",
+      "thesis": "Each donation completes one practical step from an unmet need toward proper fit.",
+      "case": "Fuses poorly: its product clarity is high, but toy-like assembly grammar trivializes trauma and weakens audience identification.",
+      "palette": ["#CBEAF0", "#15272C", "#1D99A6", "#FBD13E"],
+      "materials": ["sky-blue instruction stock", "black keyline ink", "numbered callouts"],
+      "viewport": "An exploded sequence shows the real elements of proper post-mastectomy fit while the donation action completes the final step.",
+      "risk": "The assembly metaphor may reduce survivors to a problem being fixed.",
+      "sketch": ".impeccable/sketches/challenger-steps.webp",
+      "hero": "https://impeccable.style/worlds/cards/games-toys-physics-play-brick-build-instructions-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/games-toys-physics-play-brick-build-instructions.webp"
+    }
+  ],
+  "reroll": true,
+  "steer": true,
+  "canon": true,
+  "canonCard": {
+    "label": "The familiar nonprofit route",
+    "lineage": "contemporary donor-focused charity websites",
+    "thesis": "A warm documentary hero, concise mission copy, impact sections, and a persistent Donate action executed at full craft.",
+    "palette": ["#FFFFFF", "#173B42", "#1D99A6", "#FBD13E"],
+    "materials": ["documentary photography", "clean editorial type", "restrained cards"],
+    "viewport": "A full-width placeholder portrait sits beside the mission, founder-proof line, and Donate button in the arrangement donors already know.",
+    "risk": "It is immediately usable but risks blending into the nonprofit category and muting the faith-led identity.",
+    "sketch": ".impeccable/sketches/canon.webp"
+  }
+}
