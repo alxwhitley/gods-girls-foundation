@@ -1,17 +1,9 @@
 ## Now
 
-**Current Priority:** Three critique fixes are committed: contained mobile supplies, accessible compact navigation, and an honest operating-details placeholder. The `hero-teal-variant` visual direction remains a separate open decision and was untouched by this work.
-**Next Action:** Review the three fixes, then decide the `hero-teal-variant` direction separately before merging or deploying further changes.
+**Current Priority:** The operating-model card field has received its focused polish pass and is ready for Alex's visual review. The `hero-teal-variant` visual direction remains a separate open decision.
+**Next Action:** Preview the polished cards, then approve them for commit or request one focused adjustment.
 
 ## Recent
-
-### [Wednesday Aug 5, 2026 · 2:55 PM] — Code
-- **Did:** Applied the accepted Live edits, removed the hero cross, changed the header to linen, and replaced the hero cutout with the higher-quality `hero-woman` asset on `hero-teal-variant`.
-- **Decided:** The new 4:5 transparent source preserves the approved contained, bottom-aligned presentation at desktop and mobile sizes.
-
-### [Wednesday Aug 5, 2026 · 3:01 PM] — Code
-- **Did:** Added a CSS-native motion system across the homepage and outreach placeholder, including hero choreography, processional proof, drawn linework, timeline progression, and reduced-motion handling.
-- **Decided:** Motion follows the page's conviction-to-proof-to-action reading path and progressively enhances without hiding content in unsupported browsers.
 
 ### [Wednesday Aug 5, 2026 · 3:12 PM] — Code
 - **Did:** Refined responsive layout rhythm, compacted stacked hero regions, constrained wide content, tightened story and donation grouping, and corrected narrow-screen display wrapping.
@@ -24,3 +16,11 @@
 ### [Wednesday Aug 5, 2026 · 5:28 PM] — Code
 - **Did:** Fixed supply overflow, added accessible compact navigation, and added an honest operating-details placeholder, with independent reviews and commits for each change.
 - **Decided:** Unverified distribution, reach, eligibility, partner, and donation-use details remain explicitly pending; `hero-teal-variant` stays a separate open decision untouched by this work.
+
+### [Wednesday Aug 5, 2026 · 6:03 PM] — Code
+- **Did:** Reworked the operating-model section into a centered introduction and responsive five-card field, verified from 320px through desktop.
+- **Decided:** The section should break the surrounding two-column rhythm while retaining flat sanctuary styling and explicitly unverified operating details.
+
+### [Wednesday Aug 5, 2026 · 6:08 PM] — Code
+- **Did:** Polished the operating-model cards with stronger internal hierarchy, devotional geometry, clearer pending-state treatment, and responsive density.
+- **Decided:** Cards remain flat and non-interactive; gold diamonds and rules carry brand character without changing verified-content boundaries.
