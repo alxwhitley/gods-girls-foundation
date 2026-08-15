@@ -1,13 +1,13 @@
 ## Now
 
-**Current Priority:** The operating-model card field has received its focused polish pass and is ready for Alex's visual review. The `hero-teal-variant` visual direction remains a separate open decision.
-**Next Action:** Preview the polished cards, then approve them for commit or request one focused adjustment.
+**Current Priority:** `/about`, a new memorial page for founder Pam Dreda Oyola, is built, passes `npm run build`, and is reviewed at desktop, tablet, and mobile; it awaits Alex's visual approval. The operating-model cards and the `hero-teal-variant` direction remain separately pending from prior sessions.
+**Next Action:** Review the `/about` screenshots in `.impeccable/review/about-*.png`, approve or request one adjustment.
 
 ## Recent
 
-### [Wednesday Aug 5, 2026 · 3:12 PM] — Code
-- **Did:** Refined responsive layout rhythm, compacted stacked hero regions, constrained wide content, tightened story and donation grouping, and corrected narrow-screen display wrapping.
-- **Decided:** The donor path now keeps conviction, human proof, specific evidence, and action closer together while preserving the established desktop composition.
+### [Saturday Aug 15, 2026 · 11:38 AM] — Code
+- **Did:** Created structure.md and pages/about-copy.md, the Gate S artifacts this project had never had, then built /about: a dark, linen, dark ring composition honoring Pam with a mirrored portrait, a drop-cap narrative, a four-point timeline ending in a gold marker, and a placeholder donate CTA. Repointed the About nav and footer links to /about, named Pam on the homepage, and fixed two pre-existing bugs found along the way: a CSS cascade-order bug that silently broke mobile stacking on any page, and a trailing-slash bug that broke aria-current on every non-home nav link.
+- **Decided:** Pam's dates render as "– 2026" exactly as specified, birth year left unconfirmed; the memorial donate CTA is a disabled placeholder button, not a link, until a donation platform exists.
 
 ### [Wednesday Aug 5, 2026 · 3:36 PM] — Code
 - **Did:** Restored the founder portrait's full square framing, removed the icon above “The need is specific,” and opened Bodoni line boxes and reveal clipping to protect letterforms and descenders.

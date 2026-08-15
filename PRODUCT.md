@@ -133,22 +133,32 @@ mastectomy-supply store in Raleigh, NC with friend/sister Nneka Hay, where
 the store owner agreed to gather donations — the moment the foundation idea
 was born.
 
+**Confirmed by the user 2026-08-15:**
+
+- **Founder's name: Pam Dreda Oyola.** Supplied by Alex and cleared for
+  publication. The `/about` page is attributed to her and the homepage story
+  section names her.
+- **Pam died July 14, 2026.** `/about` is written as a memorial and tells her
+  story in third person. **Her birth year was not supplied — do not invent
+  one.** Cause or context of her death beyond the date was not supplied
+  either; do not add detail, and in particular do not assume a cancer
+  recurrence.
+
 **Confirmed to exist, not yet in hand:**
 
-- **Founder's name.** The story is told in first person but no name was
-  given. **Do not fabricate one** — confirm before publishing an attributed
-  About/story page or byline.
 - **Photography, logo, and any other visual assets.** None referenced or
-  supplied. Any imagery used pre-launch must be a clearly marked stand-in.
+  supplied beyond `public/assets/founder-photo.jpg`. Any other imagery used
+  pre-launch must be a clearly marked stand-in.
 - **A specific donation platform/URL.** Shape confirmed (third-party
   link-out); specific service and link not yet chosen.
 - **Registration jurisdiction and any tax-deductibility language.**
 
 **Must not be fabricated.** Nothing below has been established, and no
-future session may invent it: the founder's name, statistics or claims about
-how many women have been served, a partner or volunteer roster beyond Nneka
-Hay and the two unnamed individuals in the story, a specific donation
-platform or link, or any specific legal/tax-registration claim.
+future session may invent it: Pam's birth year or any detail about her death
+beyond its date, statistics or claims about how many women have been served,
+a partner or volunteer roster beyond Nneka Hay and the two unnamed
+individuals in the story, a specific donation platform or link, or any
+specific legal/tax-registration claim.
 
 ## Product Principles
 
@@ -161,9 +171,10 @@ platform or link, or any specific legal/tax-registration claim.
    billing.
 3. **Never state or imply a donation is tax-deductible, or name a specific
    legal registration, until the user confirms one.**
-4. **Never fabricate what isn't confirmed:** no invented founder name, no
-   invented statistics, no invented partner list, no invented donation
-   platform or link. Mark each as a stand-in or TBD until real.
+4. **Never fabricate what isn't confirmed:** no invented birth year for Pam,
+   no invented circumstances of her death, no invented statistics, no
+   invented partner list, no invented donation platform or link. Mark each as
+   a stand-in or TBD until real.
 5. **The specificity of the niche — post-mastectomy garment and prosthesis
    access in Kenya — is the differentiator** from generic
    breast-cancer-awareness charities. Keep copy and structure anchored to

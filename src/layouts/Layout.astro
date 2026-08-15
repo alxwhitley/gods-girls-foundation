@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const currentPath = Astro.url.pathname;
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
 ---
 
 <!doctype html>
@@ -32,8 +32,8 @@ const currentPath = Astro.url.pathname;
       </a>
       <nav aria-label="Primary navigation">
         <a class="desktop-nav-link" href="/" aria-current={currentPath === "/" ? "page" : undefined}>Home</a>
+        <a class="desktop-nav-link" href="/about" aria-current={currentPath === "/about" ? "page" : undefined}>About</a>
         <a class="desktop-nav-link" href="/outreach" aria-current={currentPath === "/outreach" ? "page" : undefined}>Outreach</a>
-        <a class="desktop-nav-link" href="/#story">About</a>
         <details class="mobile-nav">
           <summary class="nav-toggle">
             <span class="visually-hidden">Navigation menu</span>
@@ -46,8 +46,8 @@ const currentPath = Astro.url.pathname;
           </summary>
           <div class="mobile-nav-panel">
             <a href="/" aria-current={currentPath === "/" ? "page" : undefined}>Home</a>
+            <a href="/about" aria-current={currentPath === "/about" ? "page" : undefined}>About</a>
             <a href="/outreach" aria-current={currentPath === "/outreach" ? "page" : undefined}>Outreach</a>
-            <a href="/#story">About</a>
           </div>
         </details>
         <a class="header-donate" href="/#donate">Donate</a>
@@ -63,7 +63,7 @@ const currentPath = Astro.url.pathname;
       <p>Daring, Deserving and Dignified.</p>
       <nav aria-label="Footer navigation">
         <a href="/outreach">Outreach</a>
-        <a href="/#story">Our story</a>
+        <a href="/about">Our story</a>
         <a href="/#donate">Donate</a>
       </nav>
       <p class="prototype-note">Prototype website — final content, imagery, and donation link are pending.</p>
