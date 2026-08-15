@@ -89,12 +89,14 @@ label is a compression of the description, not a new fact.
   mark on the timeline, closing the procession in light.
 
 ### Closing tribute — dark sanctuary-ink field
+- Order: heading, body, CTA (decision confirmed by Alex 2026-08-15 —
+  previously body led, heading followed).
+- Heading: "Carry Her Mission Forward" (id `about-tribute-line`, replaces
+  "Daring, Deserving, and Dignified." — that line already lives in the site
+  footer, so it was redundant here).
 - Body: "Pam didn't set out to build an institution. She set out to make
-  sure no other woman had to hide in a bathroom mid-service, adjusting a
-  prosthesis that never fit right in the first place — the way her mother
-  once did, the way she once did. God's Girls Foundation carries that
-  forward in her name."
-- Line: "Daring, Deserving, and Dignified."
+  sure no woman has to hide her dignity again. God's Girls Foundation
+  continues that work in her name."
 - CTA: "Donate in her memory" — render as a **placeholder button, not a
   link** (decision confirmed by Alex 2026-08-15). No live donation platform
   has been selected, so this must not resolve to a URL or imply a working

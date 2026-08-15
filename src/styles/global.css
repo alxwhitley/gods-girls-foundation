@@ -772,12 +772,6 @@ footer nav {
       animation-range: entry 12% cover 32%;
     }
 
-    .about-tribute-cta {
-      animation: keyline-resolve linear both;
-      animation-timeline: view();
-      animation-range: entry 12% cover 34%;
-    }
-
     .fit-list li {
       animation: evidence-arrive linear both;
       animation-timeline: view();
@@ -1525,6 +1519,14 @@ footer nav {
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
+  opacity: 0;
+  transform: translateY(0.8rem);
+  transition: opacity 520ms cubic-bezier(0.16, 1, 0.3, 1), transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.about-tribute-cta.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about-tribute-cta .primary-action {

@@ -115,13 +115,36 @@ const timeline = [
   </section>
 
   <section class="about-tribute" aria-labelledby="about-tribute-line">
+    <h2 id="about-tribute-line" class="about-tribute-line">Carry Her Mission Forward</h2>
     <p class="about-tribute-body">
-      Pam didn't set out to build an institution. She set out to make sure no other woman had to hide in a bathroom mid-service, adjusting a prosthesis that never fit right in the first place — the way her mother once did, the way she once did. God's Girls Foundation carries that forward in her name.
+      Pam didn't set out to build an institution. She set out to make sure no woman has to hide her dignity again. God's Girls Foundation continues that work in her name.
     </p>
-    <h2 id="about-tribute-line" class="about-tribute-line">Daring, Deserving, and Dignified.</h2>
     <div class="about-tribute-cta">
       <button type="button" class="primary-action" disabled aria-disabled="true">Donate in her memory</button>
       <p class="about-tribute-note">Donation link coming soon.</p>
     </div>
   </section>
 </Layout>
+
+<script>
+  const cta = document.querySelector(".about-tribute-cta");
+
+  if (cta) {
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries, obs) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              cta.classList.add("is-visible");
+              obs.unobserve(entry.target);
+            }
+          }
+        },
+        { threshold: 0.2 },
+      );
+      observer.observe(cta);
+    } else {
+      cta.classList.add("is-visible");
+    }
+  }
+</script>
