@@ -20,6 +20,15 @@
         "value": "1.75rem",
         "createdAt": "2026-08-18T13:18:16.523Z",
         "reason": "Deliberate reduction of .operating-cards--mosaic first-child dt's clamp() min to lower that card's visual dominance before the donate ask (critique P1 fix, 2026-08-18) — an intentional size step between the title (1.45rem) and headline (2.75rem+) ramp steps, not drift."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-08-18T13:26:13.489Z",
+        "reason": "Both matches (body::before top hairline, .operating-cards--mosaic first-child::before) are deliberate 0.2rem gold keylines documented in DESIGN.md's Woven Light Rule ('gold used for light, dates, focus, keylines, and primary action') and the accepted operating-model mosaic treatment from a prior session, not accidental side-tab card accents."
       }
     ]
   }
