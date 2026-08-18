@@ -63,7 +63,7 @@ const fitDetails = [
   </section>
 
   <section class="supply-band" aria-labelledby="supply-title">
-    <h2 id="supply-title" class="visually-hidden">The supplies your support makes accessible</h2>
+    <h2 id="supply-title" class="supply-band-title">The supplies your support makes accessible</h2>
     {supplies.map((supply) => (
       <article class="supply-item">
         {supply.icon === "prosthesis" && (
@@ -156,7 +156,7 @@ const fitDetails = [
     <div class="operating-intro">
       <h2 id="operating-title">How support will reach survivors.</h2>
       <p>
-        The foundation is still confirming the details of its operating model. We will publish each item below once the information has been approved and verified.
+        We're finalizing distribution, partnerships, and eligibility details so support reaches the right hands. Each is published here as it's confirmed.
       </p>
     </div>
     <div class="operating-status">
@@ -181,6 +181,12 @@ const fitDetails = [
     <div class="donate-status" role="status">
       <span>Donation link coming soon</span>
       <p>This prototype will connect to the foundation's selected donation platform.</p>
+      <form class="notify-form" aria-disabled="true">
+        <label for="notify-email-home" class="visually-hidden">Email address</label>
+        <input id="notify-email-home" type="email" placeholder="you@example.com" disabled />
+        <button type="submit" disabled>Notify me</button>
+      </form>
+      <p class="notify-note">Email signup coming soon — thank you for believing in this mission before it's fully built.</p>
     </div>
   </section>
 </Layout>

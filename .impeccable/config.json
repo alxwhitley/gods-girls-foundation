@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font-size",
+        "value": "0.85rem",
+        "createdAt": "2026-08-18T13:17:52.607Z",
+        "reason": "Matches the existing .about-tribute-note caption size already used in this file for the same semantic role (small muted note under a disabled CTA); not new drift, reusing an established secondary-text size."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#977410",
+        "createdAt": "2026-08-18T13:18:16.477Z",
+        "reason": "Deliberate WCAG AA contrast fix for .story-path time.about-final-mark text on --linen background (was 2.3:1 with --gold-deep, needs 3:1 for large text); a darker gold step, not accidental drift. Per /impeccable critique run 2026-08-18."
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "1.75rem",
+        "createdAt": "2026-08-18T13:18:16.523Z",
+        "reason": "Deliberate reduction of .operating-cards--mosaic first-child dt's clamp() min to lower that card's visual dominance before the donate ask (critique P1 fix, 2026-08-18) — an intentional size step between the title (1.45rem) and headline (2.75rem+) ramp steps, not drift."
+      }
+    ]
+  }
+}

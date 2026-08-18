@@ -122,7 +122,21 @@ const timeline = [
     <div class="about-tribute-cta">
       <button type="button" class="primary-action" disabled aria-disabled="true">Donate in her memory</button>
       <p class="about-tribute-note">Donation link coming soon.</p>
+      <form class="notify-form" aria-disabled="true">
+        <label for="notify-email-about" class="visually-hidden">Email address</label>
+        <input id="notify-email-about" type="email" placeholder="you@example.com" disabled />
+        <button type="submit" disabled>Notify me</button>
+      </form>
+      <p class="notify-note">Email signup coming soon.</p>
     </div>
+    <noscript>
+      <style>
+        .about-tribute-cta {
+          opacity: 1;
+          transform: none;
+        }
+      </style>
+    </noscript>
   </section>
 </Layout>
 

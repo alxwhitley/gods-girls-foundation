@@ -50,7 +50,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
             <a href="/outreach" aria-current={currentPath === "/outreach" ? "page" : undefined}>Outreach</a>
           </div>
         </details>
-        <a class="header-donate" href="/#donate">Donate</a>
+        <a class="header-donate" href="/#donate" title="Donation platform launching soon" aria-label="Donate — link launching soon">Donate</a>
       </nav>
     </header>
 
@@ -64,7 +64,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
       <nav aria-label="Footer navigation">
         <a href="/outreach">Outreach</a>
         <a href="/about">Our story</a>
-        <a href="/#donate">Donate</a>
+        <a href="/#donate" title="Donation platform launching soon" aria-label="Donate — link launching soon">Donate</a>
       </nav>
       <p class="prototype-note">Prototype website — final content, imagery, and donation link are pending.</p>
     </footer>
