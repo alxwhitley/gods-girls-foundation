@@ -247,6 +247,7 @@ h1 em {
   grid-column: 1 / -1;
   max-width: 40ch;
   margin: 0 auto 0.5rem;
+  padding-top: clamp(2rem, 4vw, 3rem);
   color: var(--text-on-dark);
   font-family: var(--display-font);
   font-size: 1.45rem;
